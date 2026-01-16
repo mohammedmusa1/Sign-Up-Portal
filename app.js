@@ -48,9 +48,9 @@ app.post("/", function (req, res) {
 
   const jsonData = JSON.stringify(data);
 
-  const API_KEY = "29da89f420f3fd89251c0e43609689a8-us3";
-  const AUDIENCE_ID = "ab7690fd29";
-  const DATACENTER = "us3";
+  const API_KEY = "YOUR_API_KEY";
+  const AUDIENCE_ID = "AUDIECNCE_ID";
+  const DATACENTER = "usX";
 
   // ❌ Safety check
   if (
@@ -119,7 +119,3 @@ app.listen(3000, function () {
   console.log("Server running on port 3000");
 });
 
-
-//29da89f420f3fd89251c0e43609689a8-us3
-
-//ab7690fd29
